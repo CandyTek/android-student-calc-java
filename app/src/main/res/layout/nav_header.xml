@@ -54,13 +54,13 @@
         android:padding="8dp"
         android:src="@drawable/ic_help_white_24dp" />
 
-    <android.support.v7.widget.AppCompatImageButton
-        android:id="@+id/img_rate"
-        style="?imageButtonStyle"
-        android:background="?selectableItemBackground"
-        android:contentDescription="@string/help"
-        android:padding="8dp"
-        android:src="@drawable/ic_star_rate_white_18dp" />
+<!--     <android.support.v7.widget.AppCompatImageButton -->
+<!--         android:id="@+id/img_rate" -->
+<!--         style="?imageButtonStyle" -->
+<!--         android:background="?selectableItemBackground" -->
+<!--         android:contentDescription="@string/help" -->
+<!--         android:padding="8dp" -->
+<!--         android:src="@drawable/ic_star_rate_white_18dp" /> -->
 
 </LinearLayout>
 

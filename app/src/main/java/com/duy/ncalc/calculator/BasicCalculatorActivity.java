@@ -140,6 +140,13 @@ public class BasicCalculatorActivity extends AbstractCalculatorActivity
 
         setModeFraction();
         showHelp();
+        
+        mDrawerLayout.post(new Runnable() {
+            @Override
+            public void run() {
+                mDrawerLayout.openDrawer(GravityCompat.START);
+            }
+        });
     }
 
     public void insertText(String text) {

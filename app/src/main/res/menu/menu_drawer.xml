@@ -177,10 +177,10 @@
                 android:id="@+id/nav_setting"
                 android:icon="@drawable/ic_settings_black_48dp"
                 android:title="@string/settings" />
-            <item
-                android:id="@+id/nav_rate"
-                android:icon="@drawable/ic_star_rate_black_18dp"
-                android:title="@string/rate_this_app" />
+<!--             <item -->
+<!--                 android:id="@+id/nav_rate" -->
+<!--                 android:icon="@drawable/ic_star_rate_black_18dp" -->
+<!--                 android:title="@string/rate_this_app" /> -->
             <item
                 android:id="@+id/nav_about_app"
                 android:icon="@drawable/ic_info_black_24dp"

@@ -124,13 +124,13 @@ public abstract class NavDrawerActivity extends BaseActivity implements Navigati
                 shareApp();
             }
         });
-        header.findViewById(R.id.img_rate).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                closeDrawer();
-                gotoPlayStore();
-            }
-        });
+        // header.findViewById(R.id.img_rate).setOnClickListener(new View.OnClickListener() {
+        //     @Override
+        //     public void onClick(View v) {
+        //         closeDrawer();
+        //         gotoPlayStore();
+        //     }
+        // });
         header.findViewById(R.id.img_back).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -222,9 +222,9 @@ public abstract class NavDrawerActivity extends BaseActivity implements Navigati
                 intent = new Intent(getApplicationContext(), PrimitiveActivity.class);
                 postStartActivity(intent);
                 break;
-            case R.id.nav_rate:
-                gotoPlayStore();
-                break;
+            // case R.id.nav_rate:
+            //     gotoPlayStore();
+            //     break;
             case R.id.nav_prime_factor:
                 intent = new Intent(getApplicationContext(), FactorPrimeActivity.class);
                 postStartActivity(intent);

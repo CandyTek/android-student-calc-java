@@ -529,13 +529,18 @@ public class BasicCalculatorActivity extends AbstractCalculatorActivity
     public void onEvaluated(String expr, String result, int resultId) {
         if (resultId == LogicEvaluator.RESULT_OK) {
             //Parse user input to get the function to be executed and operand.
-            String operator = expr.substring(0,3).toLowerCase();
-            String nums = expr.substring(4, expr.length() - 1);
-            if(operator.equals("gcd")){
-                result = executeGCD(nums);
-            }
-            if(operator.equals("lcm")){
-                result = executeLCM(nums);
+            //Only process GCD/LCM if expression is long enough and starts with these functions
+            if (expr.length() > 4) {
+                String operator = expr.substring(0, 3).toLowerCase();
+                if (operator.equals("gcd") || operator.equals("lcm")) {
+                    String nums = expr.substring(4, expr.length() - 1);
+                    if (operator.equals("gcd")) {
+                        result = executeGCD(nums);
+                    }
+                    if (operator.equals("lcm")) {
+                        result = executeLCM(nums);
+                    }
+                }
             }
             if (mCurrentState == CalculatorState.EVALUATE) {
                 onResult(result);

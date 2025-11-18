@@ -44,7 +44,6 @@ import com.duy.ncalc.settings.CalculatorSetting;
 import com.duy.ncalc.userinterface.FontManager;
 import com.duy.ncalc.userinterface.ThemeManager;
 import com.duy.ncalc.utils.DLog;
-import com.kobakei.ratethisapp.RateThisApp;
 
 
 /**
@@ -86,9 +85,9 @@ public abstract class BaseActivity extends AppCompatActivity
         }
         if (!DLog.UI_TESTING_MODE) {
             // Monitor launch times and interval from installation
-            RateThisApp.onStart(this);
+            // RateThisApp.onStart(this);
             // If the criteria is satisfied, "Rate this app" dialog will be shown
-            RateThisApp.showRateDialogIfNeeded(this);
+            // RateThisApp.showRateDialogIfNeeded(this);
         }
     }
 

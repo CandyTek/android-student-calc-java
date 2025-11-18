@@ -18,7 +18,7 @@
 <resources>
     <string name="all_unit_converter">单位转换</string>
     <string name="factor">分解</string>
-    <string name="binomial_newton">牛顿二项式展开</string>
+    <string name="binomial_newton">多项式展开</string>
     <string name="circle">圆</string>
     <string name="circle_interaction">两圆相交</string>
     <string name="circle_tangent">两圆相切</string>
@@ -36,7 +36,7 @@
     <string name="factor_polynomial">多项式分解</string>
     <string name="ellipse">椭圆</string>
     <string name="feedback">反馈</string>
-    <string name="gi_i_thi_u_v_calc">关于 NCalc+</string>
+    <string name="gi_i_thi_u_v_calc">关于 学生计算器</string>
     <string name="gi_tr_nh_nh_t">最小值</string>
     <string name="graph">图像</string>
     <string name="help">帮助</string>
@@ -46,7 +46,7 @@
     <string name="interaction">相交</string>
     <string name="l_ch_chu_n">标准差</string>
     <string name="vector">向量</string>
-    <string name="title_activity_app_about">关于 NCalc+</string>
+    <string name="title_activity_app_about">关于 学生计算器</string>
     <string name="title_activity_geometry">笛卡尔平面几何</string>
     <string name="title_activity_graph">图像</string>
     <string name="title_activity_matrix_calculator">矩阵</string>
@@ -369,4 +369,5 @@
     <string name="open_source_project_in_github_https_github_com_tranleduy2000_ncalc">GitHub 上的开源项目 https://github.com/tranleduy2000/ncalc</string>
     <string name="all_functions">所有函数</string>
     <string name="getting_started">入门</string>
+    <string name="app_name">学生计算器</string>
 </resources>

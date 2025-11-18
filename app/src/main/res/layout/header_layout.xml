@@ -32,6 +32,7 @@
         <android.support.v7.widget.AppCompatImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
+           android:visibility="gone"
             android:layout_gravity=""
             android:scaleType="centerInside"
             app:srcCompat="@drawable/icon_splash"/>
@@ -47,10 +48,17 @@
     </LinearLayout>
 
     <TextView
+       android:id="@+id/tvIcons8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/copy_right"/>
+        android:text="@string/icons8_link"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Based on the following open source projects:"/>
 
     <TextView
         android:layout_width="match_parent"

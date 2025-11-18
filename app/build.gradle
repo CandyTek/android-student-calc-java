@@ -23,8 +23,8 @@ android {
         applicationId "com.duy.calculator.free"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 403
-        versionName "3.4.3-beta"
+        versionCode 1
+        versionName "1.1.20251118"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -112,4 +112,10 @@ dependencies {
     implementation group: 'commons-io', name: 'commons-io', version: '2.3'
 
 
+}
+
+android.applicationVariants.configureEach { variant ->
+    variant.outputs.configureEach {
+        outputFileName = "StudentCalc${variant.versionName}.apk"
+    }
 }

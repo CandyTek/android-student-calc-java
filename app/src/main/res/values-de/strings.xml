@@ -93,7 +93,7 @@
     <string name="g_c_gi_a_ng_th_ng_ab_v_ox">Winkel zwischen AB und Ox Achse</string>
     <string name="g_c_t_o_v_i_ox">Winkel mit Ox Achse</string>
     <string name="getting_started">Erste Schritte</string>
-    <string name="gi_i_thi_u_v_calc">Über NCalc+</string>
+    <string name="gi_i_thi_u_v_calc">Über StudentCalc</string>
     <string name="gi_tr_nh_nh_t">Kleinster Wert</string>
     <string name="graph">Graph</string>
     <string name="graph_2">Graph</string>
@@ -288,7 +288,7 @@
     <string name="tit_trig_expand">Trigonometrie - Expandieren</string>
     <string name="tit_trig_reduce">Trigonometrie - Reduzieren</string>
     <string name="tit_trig_to_exp">Trigonometrie - in E^x wandeln</string>
-    <string name="title_activity_app_about">Über NCalc+</string>
+    <string name="title_activity_app_about">Über StudentCalc</string>
     <string name="title_activity_geometry">2D Kartesische Geometrie</string>
     <string name="title_activity_graph">Graph</string>
     <string name="title_activity_matrix_calculator">Matrix</string>

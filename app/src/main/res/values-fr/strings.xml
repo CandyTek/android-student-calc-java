@@ -35,7 +35,7 @@
     <string name="factor_polynomial">Facteur polynomial</string>
     <string name="ellipse">Ellipse</string>
     <string name="feedback">Retours</string>
-    <string name="gi_i_thi_u_v_calc">A propos de Ncalc+</string>
+    <string name="gi_i_thi_u_v_calc">A propos de StudentCalc</string>
     <string name="gi_tr_nh_nh_t">Plus petite valeur</string>
     <string name="graph">Graphique</string>
     <string name="help">Aide</string>
@@ -45,7 +45,7 @@
     <string name="interaction">Sécante</string>
     <string name="l_ch_chu_n">Écart type</string>
     <string name="vector">vecteur</string>
-    <string name="title_activity_app_about">A propos de NCalc+</string>
+    <string name="title_activity_app_about">A propos de StudentCalc</string>
     <string name="title_activity_geometry">Géométrie cartésienne 2D</string>
     <string name="title_activity_graph">Graphique</string>
     <string name="title_activity_matrix_calculator">Matrice</string>

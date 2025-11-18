@@ -19,7 +19,7 @@
     <string name="factor_polynomial">Factor polinomial</string>
     <string name="ellipse">Elipse</string>
     <string name="feedback">Comentarios</string>
-    <string name="gi_i_thi_u_v_calc">Acerca de Ncalc</string>
+    <string name="gi_i_thi_u_v_calc">Acerca de StudentCalc</string>
     <string name="gi_tr_nh_nh_t">Valor mínimo</string>
     <string name="graph">Graficar</string>
     <string name="help">Ayuda</string>
@@ -29,7 +29,7 @@
     <string name="interaction">Intersección</string>
     <string name="l_ch_chu_n">Desviación estándar</string>
     <string name="vector">vector</string>
-    <string name="title_activity_app_about">Acerca de NCalc</string>
+    <string name="title_activity_app_about">Acerca de StudentCalc</string>
     <string name="title_activity_geometry">Geometría cartesiana 2D</string>
     <string name="title_activity_graph">Graficar</string>
     <string name="title_activity_matrix_calculator">Matriz</string>

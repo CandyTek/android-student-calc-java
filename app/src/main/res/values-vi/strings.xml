@@ -48,7 +48,7 @@
     <string name="parallel">Song song</string>
 
 
-    <string name="title_activity_app_about">Giới thiệu NCalc+</string>
+    <string name="title_activity_app_about">Giới thiệu StudentCalc</string>
 
     <string name="close">Đóng</string>
 
@@ -121,7 +121,7 @@
         Sau đó nhập các ẩn cần tìm là x, y, z\n
         Nhấn nút [tìm nghiệm]
     </string>
-    <string name="gi_i_thi_u_v_calc">Giới thiệu về Ncalc</string>
+    <string name="gi_i_thi_u_v_calc">Giới thiệu về StudentCalc</string>
 
     <string name="not_input_equation">Chưa nhập hệ phương trình</string>
     <string name="add_function">Thêm hàm số</string>

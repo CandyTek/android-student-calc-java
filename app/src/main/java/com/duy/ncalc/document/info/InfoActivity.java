@@ -27,6 +27,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -66,6 +68,10 @@ public class InfoActivity extends AppCompatActivity {
         mListTranslate = findViewById(R.id.list_translate);
         setupActionBar();
         initContent();
+
+
+
+        ((TextView) findViewById(R.id.tvIcons8)).setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     private void setupActionBar() {

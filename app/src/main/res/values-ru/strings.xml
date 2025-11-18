@@ -234,7 +234,7 @@
     <string name="tit_trig_expand">Разложение формул</string>
     <string name="tit_trig_reduce">Сокращение формул</string>
     <string name="tit_trig_to_exp">Экспоненциальное разложение</string>
-    <string name="title_activity_app_about">О программе</string>
+    <string name="title_activity_app_about">О студенческих калькуляторах</string>
     <string name="title_activity_geometry">Двумерная геометрия</string>
     <string name="title_activity_graph">Построение графика</string>
     <string name="title_activity_matrix_calculator">Операции с матрицами</string>
